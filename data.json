@@ -1,0 +1,65 @@
+{
+    "Characters": {
+        "char1": {
+            "v1": "",
+            "v2": ""
+        },
+        "char2": {
+            "v1": "",
+            "v2": ""
+        },
+        "char3": {
+            "v1": "",
+            "v2": ""
+        }
+    },
+    "Scene1": {
+        "Background": " ",
+        "PAGES": {
+            "Page0": {
+                "Character": "char1",
+                "Sprite": "v1",
+                "PageText": "text text text"
+            },
+            "Page1": {
+                "Character": "char1",
+                "Sprite": "v1",
+                "PageText": "text text text"
+            },
+            "Page2": {
+                "Character": "char1",
+                "Sprite": "v1",
+                "PageText": "option text option text",
+                "Options": {
+                    "one": "Page3",
+                    "two": "Page4"
+                }
+            },
+            "Page3": {
+                "Character": "",
+                "Sprite": "v1",
+                "PageText": "more option text more option text",
+                "Options": {
+                    "one": "Page4",
+                    "two": "Page4",
+                    "three": "Page4"
+                }
+            },
+            "Page4": {
+                "Character": "",
+                "Sprite": "v1",
+                "PageText": "Replay?",
+                "Options": {
+                    "Restart": "Page0",
+                    "Finish": "Page5"
+                }
+            },
+            "Page26": {
+                "Character": "",
+                "Sprite": "v1",
+                "PageText": "omg end",
+                "NextPage": "End"
+            }
+        }
+    }
+}
